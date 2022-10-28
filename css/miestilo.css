@@ -6,8 +6,20 @@
 
 }
 
+header h1{
+    background-image: url(../img/Guirnalda.png) ;
+    padding: 1% ;
+    margin: 1%;
+    color: red ;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
 
+}
 
+li{
+    display: inline-block;
+}
 
 input:enabled{
     background-color: white;
