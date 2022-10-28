@@ -2,17 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: antiquewhite;
-    background-image: url(../img/fondo.jpg);
+    ;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 
 }
 
-body{
-   
-    
+
+html{
+    background-color: antiquewhite;
+    background-image: url(../img/fondo.jpg)
 }
+
 
 header h1{
     
@@ -28,37 +29,62 @@ header h1{
 }
 
 nav{
-   
+    background-color: rgb(194, 151, 71);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
-li{
+
+
+a{
     display: inline-block;
     margin: 3%;
     padding: 1%;
-    background-color: rgb(161, 55, 54);
+    border-radius: 10px;
+    background-color: rgb(187, 57, 55);
+    text-decoration: none;
 
+    
+}
+
+a:link{
+    color: rgb(255, 250, 229);
+    padding: 2%;
+    
+}
+
+a:hover{
+    color: rgb(68, 155, 48);
+}
+
+a:active{
+    color: rgb(187, 57, 55);
 }
 
 
 
 
-
+input {
+    background-color: rgb(228, 220,175);
+   
+}
 
 input:enabled{
-    background-color: white;
+    background-color: rgb(255, 250, 229);
 }
 
 
 .boton:hover{
-    background-color: green ;
-    color: white;
+    background-color: rgb(68, 155, 48) ;
+    color: rgb(255, 250, 229);
 }
 
 .boton:active{
-    background-color: orange;
+    background-color: rgb(194, 151, 71);
     
 }
 
 
 textarea:enabled{
-    background-color: white;
+    background-color: rgb(255, 250, 229);
 }
