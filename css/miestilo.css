@@ -3,23 +3,45 @@
     padding: 0;
     box-sizing: border-box;
     background-color: antiquewhite;
+    background-image: url(../img/fondo.jpg);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 
+}
+
+body{
+   
+    
 }
 
 header h1{
-    background-image: url(../img/Guirnalda.png) ;
-    padding: 1% ;
-    margin: 1%;
-    color: red ;
+    
+    padding: 3%;
+    margin: 3%;
+    color: rgb(90, 57, 37) ;
     font-weight: bold;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Rye', cursive;
     font-size: 40px;
+    background-color: rgb(194, 151, 71);
+    background-image: none;
 
 }
 
+nav{
+   
+}
 li{
     display: inline-block;
+    margin: 3%;
+    padding: 1%;
+    background-color: rgb(161, 55, 54);
+
 }
+
+
+
+
+
 
 input:enabled{
     background-color: white;
