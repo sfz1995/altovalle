@@ -27,15 +27,17 @@ header h1{
     color: rgb(90, 57, 37) ;
     font-weight: bold;
     font-family: 'Rye', cursive;
-    font-size: 50px;
+    font-size: 4em;
     align-items: center;
     background-image: none;
+    
 
 }
 
 header img{
-    width: 22%;
+    max-width: 32%;
     padding: 1.5%;
+    flex-wrap: wrap;
 
 }
 
@@ -62,19 +64,22 @@ header img{
 
 
 
+
+
+
+
 .contacto{
     background-color: rgb(228, 220,175, 0.9);
     margin: 2%;
     font-size: 2em;
     padding: 2%;
     color: rgb(69, 50, 39);
-    
+    display: flex;
+    flex-direction: column;
 }
 
-
-
 .subtitulo{
-    font-size: 150% ;
+    font-size: 1.7em ;
     margin-top: 1%;
     margin-bottom: 1%;
     
@@ -91,13 +96,14 @@ header img{
     
  }
 
- label, input, .boton, textarea {
-    font-size: 2em ;
+ label, p#input, input, .boton, textarea {
+    font-size: 1.5em;
  }
 
  
  #input{
 display: inline-block;
+
 }
 a:hover{
     color: rgb(68, 155, 48);
@@ -110,11 +116,13 @@ a:active{
 .botones{
     display: flex;
     justify-content: space-between;
+    padding-left: 2%;
 
 }
 
 input {
     background-color: rgb(228, 220,175);
+    max-width: 95%;
    
 }
 
@@ -136,4 +144,6 @@ input:enabled{
 
 textarea:enabled{
     background-color: rgb(255, 250, 229);
+    width: 75%;
+    max-width: 95%;
 }
