@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    ;
+    
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 12px;
 }
@@ -10,7 +10,9 @@
 
 html{
     background-color: antiquewhite;
-    background-image: url(../img/fondo.jpg)
+    background-image: url(../img/fondo.jpg);
+    background-attachment: fixed;
+
 }
 
 
@@ -20,6 +22,7 @@ header{
     background-color: rgb(194, 151, 71);
     margin: 2%;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
 header h1{
@@ -37,7 +40,8 @@ header h1{
 header img{
     max-width: 32%;
     padding: 1.5%;
-    flex-wrap: wrap;
+
+
 
 }
 
@@ -50,7 +54,7 @@ header img{
 
 
 #indice a{
-    font-size: 130%;
+    font-size: 180%;
     display: inline-block;
     margin: 1%;
     padding: 1.5%;
@@ -146,4 +150,12 @@ textarea:enabled{
     background-color: rgb(255, 250, 229);
     width: 75%;
     max-width: 95%;
+}
+
+
+#iframe{
+    display: flex;
+    justify-content: center;
+ 
+    
 }
