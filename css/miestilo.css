@@ -18,7 +18,7 @@ html{
 
 header{
     display: flex;
-    justify-content: space-between;
+    
     background-color: rgb(194, 151, 71);
     margin: 2%;
     flex-wrap: wrap;
@@ -40,7 +40,7 @@ header h1{
 header img{
     max-width: 32%;
     padding: 1.5%;
-
+    justify-content: space-between;
 
 
 }
@@ -86,7 +86,7 @@ header img{
     font-size: 1.7em ;
     margin-top: 1%;
     margin-bottom: 1%;
-    
+    background-color: rgb(228, 220,175, 0.9)
 }
 
 .contacto h2{
