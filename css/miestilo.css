@@ -4,96 +4,86 @@
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 12px;
+    text-decoration: none;
 }
-
 
 html {
-    background-color: antiquewhite;
     background-image: url(../img/fondo.jpg);
     background-attachment: fixed;
-
+    color: rgb(69, 50, 39);
 }
+
 
 
 header {
     display: flex;
-    text-align: center;
     background-color: rgb(194, 151, 71);
-    margin: 2%;
-    flex-wrap: wrap;
-    flex-direction: column;
+    margin: 3% 0%;   
 }
-
 header h1 {
     padding: 1.5%;
     color: rgb(90, 57, 37);
-    font-weight: bold;
     font-family: 'Rye', cursive;
-    font-size: 7em;
-    align-items: center;
-    background-image: none;
-
-
-}
-
-header img {
-    max-width: 32%;
-    padding: 1.5%;
-    justify-content: space-between;
-
-
+    font-size: 4.5em;
 }
 
 #indice {
-    background-color: rgb(194, 151, 71);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-
-
 #indice a {
     font-size: 180%;
-    display: inline-block;
-    margin: 1%;
-    padding: 1.5%;
+    margin: 4%;
+    padding: 5%;
     border-radius: 10px;
     background-color: rgb(187, 57, 55);
-    text-decoration: none;
-    color: rgb(228, 220, 175);
-    text-align: center;
-
+    color: rgb(228, 220, 175);   
 }
+#indice a:hover{
+    background-color: rgb(228, 220, 175);
+    color: rgb(187, 57, 55);
+    border: 2px solid rgb(187, 57, 55)
+}
+#indice li{
+    display: flex;
+    justify-content: right;
+    margin: 1%;
+    padding: 2%;
+}
+
+
+.imgPort {
+    display: flex;
+    justify-content: space-around ;
+    background-color: rgb(194, 151, 71);
+}
+img {
+    max-width: 32%;
+    padding: 1.5%;
+}
+
 
 footer {
     background-color: rgb(194, 151, 71);
-    margin: 2% 0;
-    padding: 1%;
-      
-        
+    margin: 1.5% 0;
+    padding: 0.5%;       
 }
-
-
 footer ul{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding: 1.5%
 }
-footer li{
+
+li{
     list-style: none;
-
 }
-
-
-i{
+footer i{
     font-size: 200%;
-   }
-
-
-
-.footer{
-    margin: 2%;
+}
+.pfooter{
+    margin: 1%;
     font-size: 115%;
     color:rgb(228, 220, 175);
     display: flex;
@@ -104,81 +94,84 @@ i{
 
 
 
+.conocenos {
+    background-color: rgb(228, 220, 175, 0.9);
+    margin: 2%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column; 
+}
+
+
 
 .contacto {
     background-color: rgb(228, 220, 175, 0.9);
     margin: 2%;
-    font-size: 2em;
     padding: 2%;
-    color: rgb(69, 50, 39);
     display: flex;
     flex-direction: column;
 }
 
 .subtitulo {
-    font-size: 1.7em;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    background-color: rgb(228, 220, 175, 0.9)
+    font-size: 3em;
+    background-color: rgb(228, 220, 175, 0.9);
+    margin: 1% 2% 3% 2%;
+    
 }
+
+.conocenos p{
+    margin: 0.5% 2% 3% 2% ;
+    font-size: 1.3em;
+}
+#iframe {
+    display: flex;
+    justify-content: center;
+    padding: 5% 10%;
+}
+
+
 
 .contacto h3 {
-    font-size: 100%;
+    font-size: 2em;
     padding: 2%;
 }
-
 .contacto p {
-    padding: 2%;
+    padding: 1%;
 
 
 }
-
 label,p#input,input,.boton,textarea {
     font-size: 1.5em;
-}
 
+}
 #input {
     display: inline-block;
 }
-
 a:hover {
     color: rgb(68, 155, 48);
 }
-
 a:active {
     color: rgb(187, 57, 55);
 }
-
 .botones {
     display: flex;
     justify-content: space-between;
     padding-left: 2%;
-
 }
-
 input {
     background-color: rgb(228, 220, 175);
     max-width: 95%;
-
 }
-
-
 input:enabled {
     background-color: rgb(255, 250, 229);
 }
-
-
 .boton:hover {
     background-color: rgb(68, 155, 48);
     color: rgb(255, 250, 229);
 }
-
 .boton:active {
     background-color: rgb(194, 151, 71);
-
 }
-
-
 textarea:enabled {
     background-color: rgb(255, 250, 229);
     width: 75%;
@@ -186,9 +179,21 @@ textarea:enabled {
 }
 
 
-#iframe {
-    display: flex;
-    justify-content: center;
-    padding: 5% 10%;
+
+
+
+
+
+
+@media (min-width: 560px){
+
+}
+
+@media (min-width: 768px){
+
+}
+
+@media (min-width: 1200px){
+
 }
 
