@@ -119,6 +119,26 @@ footer i{
     
 }
 
+.pindex{
+    background-color: rgb(228, 220, 175, 0.9);
+    margin: 2%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.pindex h2{
+    font-size: 3em ;
+}
+.pindex h3{
+    font-size: 2em;
+    padding: 2%;
+}
+.pindex h4{
+    font-size: 2em;
+    padding: 2%;
+}
+
 .conocenos p{
     margin: 0.5% 2% 3% 2% ;
     font-size: 1.3em;
