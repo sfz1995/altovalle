@@ -13,18 +13,19 @@ html {
     color: rgb(69, 50, 39);
 }
 
-
+/**********/
 
 header {
     display: flex;
     background-color: rgb(194, 151, 71);
-    margin: 3% 0%;   
+    margin: 3% 0%; 
+    justify-content: space-around;  
 }
 header h1 {
-    padding: 1.5%;
+    padding: 1%;
     color: rgb(90, 57, 37);
     font-family: 'Rye', cursive;
-    font-size: 4.5em;
+    font-size: 4em;
 }
 
 #indice {
@@ -51,7 +52,7 @@ header h1 {
     margin: 1%;
     padding: 2%;
 }
-
+/************/
 
 .imgPort {
     display: flex;
@@ -62,7 +63,7 @@ img {
     max-width: 32%;
     padding: 1.5%;
 }
-
+/*************/
 
 footer {
     background-color: rgb(194, 151, 71);
@@ -89,8 +90,7 @@ footer i{
     display: flex;
     justify-content: center;
 }
-
-
+/*************/
 
 
 
@@ -141,13 +141,19 @@ footer i{
 
 .conocenos p{
     margin: 0.5% 2% 3% 2% ;
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
 #iframe {
     display: flex;
-    justify-content: center;
-    padding: 5% 10%;
+    justify-content: space-between;
+    margin: 3% 3%;
 }
+#iframe p {
+    padding-right: 10%;
+    text-align: left;
+    margin: 0;
+}
+
 
 
 
@@ -205,15 +211,17 @@ textarea:enabled {
 
 
 
-@media (min-width: 560px){
+@media (max-width: 560px){
+#iframe{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 }
 
-@media (min-width: 768px){
-
+@media (max-width: 1000px){
+header{
+    flex-wrap: wrap;
 }
 
-@media (min-width: 1200px){
-
 }
-
